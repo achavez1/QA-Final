@@ -1,0 +1,54 @@
+<!doctype html>
+	<head>
+		<title>Year Up QA</title>
+		<meta charset= "UTF-8">
+		<meta name= "author" content= "Andrea Chavez">
+		<link href="style.css" type= "text/css" rel="stylesheet">
+		<!--connecting the javascript-->
+		<script src="script.js"></script>
+		<link rel="icon" href="images/Y.png"> <!--Small icon on the tab--> 
+		<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<ul class="a">
+		  <li><a class="active" href="index.html">Home</a></li>
+		  <li><a href="qa.html">Quality Assurance</a></li>
+		  <li><a href="modiii.html">QA Processes</a></li>
+		  <li><a href="qastudent.html">Student Perspective</a></li>
+		  <li>
+		  	<a href="https://www.facebook.com/yearup/" target="_blank"><img src="images/fb.png"></a>
+		  </li>
+		  <li>
+		  	<a href="https://twitter.com/YearUp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png"></a>
+		  </li>	
+		  <li>
+		  	<a href="https://www.youtube.com/user/YearUpInc" target="_blank"><img src="images/youtube.png"></a>
+		  </li>
+		</ul>
+		<div style="margin-left:10%;padding:1px 16px;height:1000px;">
+		<header><img src="images/yearup.png"></a></header>
+
+		<span id="vName"><script>readCookie('myCookie')</script></span><!--The welcome and option to log out-->
+
+		<h2> About Year Up</h2>
+		<div class="img">
+			<a href="http://www.yearup.org" target="_blank"><img src="images/yuba.png"></a>
+		</div>
+		<form name="frmLogin"> <!--the user inputs name-->
+			Enter Your Name to Log In:<br> 
+			<input type="text" name="fname"  size="20">
+			<input type="button" Value="Set to Cookie" onClick="createCookie('myCookie',frmLogin.fname.value)"><br>
+			<input type="button" Value="Debug: Show Cookies" onClick="showCookie()">
+		</form>
+		<p class="font">Year Up is a prestigious 1-year training institution that provides the opportunity for youth 18-24 to develop workforce skills in the tech industry, while earning college credits. Year Up has two strategically placed locations, where the tech industry is booming; San Francisco and Sillicon Valley. There are multiple tracks students can pursue: Quality Assurance, Project Management, Cyber Security, IT Support, and Networking. Every student gets an insight on each of these tracks by taking trainings, which ultimately leads to placement in a student’s appropriate track. Throughout the experience, students are coached and assessed to ensure that the workload and potential internship is well managed.</p>
+		<h2>The Phases</h2>
+		<p class="font1">Year Up consists of two phases; the L&D phase and the internship phase. The L&D phase is 6 months long and is divided into 3 modules. Module 1 is learning the basics of IT and web development.  There are also consistent core classes including Pro skills, Business communications and Independent Learning. During module 2 students go deeper into learning Operational systems and networking, as well as planning and researching potential tracks. Module 3 is when participants get placed into a track of their choice, for YUBA class of 2016 these included: Cyber Security, Networking, Quality Assurance, IT trainee or Project Coordination. The second phase of Year Up is internship. The participants are placed in an internship where they are expected to apply every training learned and put it into practice. </p> 
+		<br>
+		
+		<div id="yes">
+				<footer>Andrea Chavez &copy; 2016</footer>
+		</div>	
+	</body>
+</html>

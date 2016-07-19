@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+ul.a{
+    font-family: 'Abril Fatface', cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/*li a.active {
+    background-color: yellow;
+    color: white;
+}*/
+
+li a:hover/*:not(.active)*/ {
+    background-color: white;
+    color: blue;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+div.img{
+    float:right;
+}
+div.imag{
+    float:left;
+}
+.footer{
+  padding-top:50%;
+}
+#yes{
+    text-align:left;
+    position:bottom left;
+    bottom: 8px;
+    left: 16px;
+    padding-top: 20%;
+}
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+.font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:130%;
+}
+.font1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:130%;
+    position: absolute; 
+    /*top: 200px;*/ 
+    /*left: 0; 
+    /*width: 100%;*/ 
+}
+.link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:130%;
+    float: center;
+    text-align: center;
+}
+h3{
+    font-family: 'Abril Fatface', cursive;
+
+}
+#vName {
+    float:right;
+}
+.yo{
+    opacity: 0.5;
+    /*filter: alpha(opacity=30); /* For IE8 and earlier */
+    position: relative; 
+    /*width: 100%;*/ 
+}
+
+
+
+
+
+
+
+
